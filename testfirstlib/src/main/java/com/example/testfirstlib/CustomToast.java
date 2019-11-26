@@ -7,6 +7,6 @@ public class CustomToast
 {
     public static void showToast(Context context,String message,int length)
     {
-        Toast.makeText(context, ""+message, length).show();
+        Toast.makeText(context, "hi "+message, length).show();
     }
 }
